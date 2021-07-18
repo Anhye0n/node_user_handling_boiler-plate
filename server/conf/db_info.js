@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 var db_info = {
     host: 'localhost',
-    user: 'root',
-    password: 'xhdka2256',
-    database: 'db_test',
+    user: 'server_user',
+    password: 'server_password',
+    database: 'server_database',
     multipleStatements: true,
 }
 
